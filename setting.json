@@ -1,0 +1,116 @@
+{
+	"security.workspace.trust.untrustedFiles": "open",
+	"code-runner.runInTerminal": true,
+	"gitlens.advanced.messages": {
+		"suppressGitMissingWarning": true
+	},
+	"color-highlight.markerType": "underline",
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"markdown": "html"
+	},
+	"editor.suggest.preview": true,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.mouseWheelZoom": true,
+	"editor.accessibilityPageSize": 15,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.letterSpacing": 0.75,
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "500",
+	"editor.fontFamily": "'monolisa',Source Code Pro, Consolas, monospace",
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 100,
+	"editor.cursorWidth": 2,
+	"editor.cursorBlinking": "phase",
+	"editor.guides.bracketPairsHorizontal": false,
+	"html.format.wrapLineLength": 120,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.lineHeight": 24,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css]": {
+		"editor.suggest.insertMode": "replace"
+	},
+	"javascript.suggest.alwaysAllWords": true,
+	"javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
+	// "javascript.inlayHints.parameterNames.enabled": "all",
+	// "javascript.inlayHints.enumMemberValues.enabled": true,
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"files.autoSave": "afterDelay",
+	"workbench.colorCustomizations": {
+		"sideBar.background": "#171827",
+		"editor.background": "#15192c",
+		"panel.background": "#191a2e",
+		"panelTitle.activeBorder": "#ed39de",
+		"tab.activeBorderTop": "#cc3bb9"
+	},
+	"workbench.colorTheme": "Evondev Dracula Darker Contrast",
+	"editor.tokenColorCustomizations": {
+		"[Evondev Dracula Darker Contrast]": {
+			"textMateRules": [
+				{
+					"name": "Storage",
+					"scope": ["storage.modifier", "storage.type"],
+					"settings": {
+						"foreground": "#e94f7b"
+					}
+				},
+				// {
+				// 	"scope": "variable.other.object.js",	// 		"foreground": "#c678dd"
+				// 	"settings": {
+				//  e96afaed ce42e0 ea63fced e325fced  e2a0eef4 c678dd 8556c8f8 9663de eea530 d5d9ed
+				// 	c4ccf7   f0b659  }
+				// },
+				{
+					"scope": [
+						// "variable.other.property.js",
+						"variable.other.constant.object.js",
+						"variable.other.constant.js",
+						"variable.other.readwrite.js"
+					],
+					"settings": {
+						"foreground": "#cbd3fa"
+					}
+				},
+				{
+					"scope": [
+						"entity.other.attribute-name.html",
+						"entity.other.attribute-name"
+					],
+					"settings": {
+						"foreground": "#2ce3b5",
+						"fontStyle": "italic"
+					}
+				},
+				{
+					"scope": [
+						"punctuation.definition.string.end",
+						"punctuation.definition.string.begin"
+					],
+					"settings": {
+						"foreground": "#e0a358",
+						"fontStyle": "bold"
+					}
+				},
+				{
+					"scope": "entity.name.tag",
+					"settings": {
+						"foreground": "#FF79C6",
+						"fontStyle": "bold"
+					}
+				}
+			]
+		}
+	},
+	"vscode_custom_css.imports": ["file:///E:/VScode/colorTheme1.css"],
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	}
+}
