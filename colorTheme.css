@@ -115,7 +115,7 @@
 }
 
 .mtk3 {
-	font-family: 'roboto slab';
+	font-family: 'roboto slab', serif;
 	letter-spacing: 0.11ch;
 	font-size: 109%;
 	font-weight: 400;
@@ -152,10 +152,10 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	font-family: 'Noto Serif';
-	font-size: 104%;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 109%;
 	font-weight: 600;
-	letter-spacing: 0.15ch;
+	letter-spacing: 0.09ch;
 }
 
 /* .mtk16 {
@@ -179,15 +179,15 @@
 } */
 
 .mtk4 {
-	font-family: 'Noto Serif';
-	font-size: 105%;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 110%;
 	font-weight: 600;
-	letter-spacing: 0.16ch;
+	letter-spacing: 0.09ch;
 }
 
 .mtk5,
-.mtk27,
-.mtk6 {
+.mtk6,
+.mtk29 {
 	font-family: 'FiraCode';
 	font-size: 118%;
 	font-weight: 500;
