@@ -38,79 +38,49 @@
 	"[css]": {
 		"editor.suggest.insertMode": "replace"
 	},
-	"javascript.suggest.alwaysAllWords": true,
-	"javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
 	// "javascript.inlayHints.parameterNames.enabled": "all",
 	// "javascript.inlayHints.enumMemberValues.enabled": true,
 	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
 	"files.autoSave": "afterDelay",
 	"workbench.colorCustomizations": {
+		// "activityBar.foreground": "#ff0883",
+		"menubar.selectionBackground": "#ff417a9c",
 		"sideBar.background": "#171827",
-		"editor.background": "#15192c",
+		"sideBarSectionHeader.background": "#121526",
+		"sideBar.border":"#c792a255",
+		"sideBarSectionHeader.border":"#c792a23f",
+		"editor.background": "#121526", //light: #15192c
+		"editorLineNumber.foreground": "#b169bcdc", //violet: #a069bcdc
+		"editorLineNumber.activeForeground": "#fc6087dc",
+		"editorWidget.border": "#fc6087dc",
+		"editorStickyScrollHover.background":"#c792a223",
+		"tab.inactiveForeground": "#50a4e98c",
+		"tab.activeModifiedBorder": "#fc6060f4",
+		"tab.activeBorderTop": "#ed39de",
+		"scrollbarSlider.activeBackground": "#bf607c82",
+		"scrollbarSlider.background": "#c792a26e",
+		"scrollbarSlider.hoverBackground": "#b8728782",
 		"panel.background": "#191a2e",
+		"keybindingLabel.background": "#c792a23f",
+		"terminal.foreground": "#ffcdda",
+		"terminal.background": "#151727f6",
 		"panelTitle.activeBorder": "#ed39de",
-		"tab.activeBorderTop": "#cc3bb9"
+		"panel.border": "#fc6060f4",
+		"list.activeSelectionBackground": "#c792a23f",
+		"list.inactiveSelectionBackground": "#c792a223",
+		"list.hoverBackground": "#c792a214",
+		"statusBar.background": "#1c15175b",
+		"statusBarItem.hoverBackground": "#ff417a9c"
 	},
-	"workbench.colorTheme": "Evondev Dracula Darker Contrast",
-	"editor.tokenColorCustomizations": {
-		"[Evondev Dracula Darker Contrast]": {
-			"textMateRules": [
-				{
-					"name": "Storage",
-					"scope": ["storage.modifier", "storage.type"],
-					"settings": {
-						"foreground": "#e94f7b"
-					}
-				},
-				// {
-				// 	"scope": "variable.other.object.js",	// 		"foreground": "#c678dd"
-				// 	"settings": {
-				//  e96afaed ce42e0 ea63fced e325fced  e2a0eef4 c678dd 8556c8f8 9663de eea530 d5d9ed
-				// 	c4ccf7   f0b659  }
-				// },
-				{
-					"scope": [
-						// "variable.other.property.js",
-						"variable.other.constant.object.js",
-						"variable.other.constant.js",
-						"variable.other.readwrite.js"
-					],
-					"settings": {
-						"foreground": "#cbd3fa"
-					}
-				},
-				{
-					"scope": [
-						"entity.other.attribute-name.html",
-						"entity.other.attribute-name"
-					],
-					"settings": {
-						"foreground": "#2ce3b5",
-						"fontStyle": "italic"
-					}
-				},
-				{
-					"scope": [
-						"punctuation.definition.string.end",
-						"punctuation.definition.string.begin"
-					],
-					"settings": {
-						"foreground": "#e0a358",
-						"fontStyle": "bold"
-					}
-				},
-				{
-					"scope": "entity.name.tag",
-					"settings": {
-						"foreground": "#FF79C6",
-						"fontStyle": "bold"
-					}
-				}
-			]
-		}
-	},
-	"vscode_custom_css.imports": ["file:///E:/VScode/colorTheme1.css"],
+	"workbench.colorTheme": "Beautiful Dracula Normal",
+	"vscode_custom_css.imports": ["file:///E:/VScode/ColorTheme/colorTheme.css"],
 	"[php]": {
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-	}
+	},
+	"editor.stickyScroll.enabled": true,
+	"workbench.list.smoothScrolling": true,
+	"terminal.integrated.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+	"editor.hover.sticky": false,
+	"explorer.fileNesting.enabled": true
 }
