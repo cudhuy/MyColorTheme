@@ -114,23 +114,15 @@
 	background-image: linear-gradient(to bottom, #d66efd, #fc6c8f, #ff2ced);
 }
 
-.mtk3 {
-	font-family: 'roboto slab', serif;
-	letter-spacing: 0.11ch;
-	font-size: 109%;
-	font-weight: 400;
-}
-
-.mtk10,
 .mtk15 {
 	color: transparent;
-	background-image: linear-gradient(to left top, #fc6c8f, #ff3def, #ffb86c);
-	/* #ffb86c  #c850c0  #9a86fd #e237b7 ff2ced*/
+	background-image: linear-gradient(to left top, #fe507c, #fc29b2);
+	/* #ffb86c  #c850c0  #9a86fd #e237b7 #ff2ced #ff1daf  #da46d0*/
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	letter-spacing: normal;
-	font-size: 110%;
+	font-size: 109%;
 	font-weight: 600;
 }
 
@@ -146,7 +138,7 @@
 	font-weight: 600; _SemiCondensed
 } */
 
-.mtk17 {
+.mtk16 {
 	color: transparent;
 	background-image: linear-gradient(to right top, #128ffc, #2cccff);
 	background-clip: text;
@@ -158,15 +150,19 @@
 	letter-spacing: 0.09ch;
 }
 
-/* .mtk16 {
+.mtk1 {
+	color: #e7eaf7;
+}
+
+.mtk3 {
 	color: transparent;
-	background-image: linear-gradient(to right top, #9a86fd, #da46d0);
+	background-image: linear-gradient(to left bottom ,  #c299ff, #ad45f6);  
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	font-size: 102%;
+	font-size: 106%;
 	font-weight: 600;
-} */
+}
 
 /* .mtk18 {
 	color: transparent;
@@ -180,8 +176,15 @@
 
 .mtk4 {
 	font-family: 'JetBrains Mono', monospace;
-	font-size: 110%;
-	font-weight: 600;
+	font-size: 108%;
+	font-weight: 500;
+	letter-spacing: 0.09ch;
+}
+
+.mtk14 {
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 104%;
+	font-weight: 500;
 	letter-spacing: 0.09ch;
 }
 
