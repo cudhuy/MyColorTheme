@@ -1,5 +1,5 @@
 "editor.tokenColorCustomizations": {
-		"[Evondev Dracula Darker Contrast]": {
+		"[Beautiful Dracula Normal]": {
 			"textMateRules": [
 				{
 					"name": "Storage",
