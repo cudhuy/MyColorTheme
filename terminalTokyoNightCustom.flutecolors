@@ -1,0 +1,31 @@
+{
+  "EncodedImage": "",
+  "Name": "terminalTokyoNightCustom",
+  "Author": "cudhuy",
+  "Colors": {
+    "Foreground": "#FDEEFF",
+    "Background": "#16161E",
+    "Cursor": "#FCE1FF",
+    "CursorAccent": "#282828",
+    "Selection": "rgba(248, 248, 242, 0.34765625)",
+    "SelectionForeground": null,
+    "SelectionBackground": null,
+    "Black": "#21222C",
+    "Red": "#FF5555",
+    "Green": "#50FA7B",
+    "Yellow": "#FFCB6B",
+    "Blue": "#82AAFF",
+    "Magenta": "#C792EA",
+    "Cyan": "#8BE9FD",
+    "White": "#F8F8F2",
+    "BrightBlack": "#545454",
+    "BrightRed": "#FF6E6E",
+    "BrightGreen": "#69FF94",
+    "BrightYellow": "#FFCB6B",
+    "BrightBlue": "#D6ACFF",
+    "BrightMagenta": "#FF92DF",
+    "BrightCyan": "#A4FFFF",
+    "BrightWhite": "#F8F8F2"
+  },
+  "BackgroundImage": null
+}
