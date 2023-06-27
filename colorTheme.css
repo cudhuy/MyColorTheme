@@ -136,10 +136,10 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	font-family: 'Convergence';
-	font-size: 107%;
-	letter-spacing: 0.11ch;
-	font-weight: 600; _SemiCondensed
+	font-family: 'Cascadia Code';
+	font-size: 106%;
+	font-weight: 500;
+	letter-spacing: 0.1ch;
 } */
 
 .mtk16 {
@@ -148,15 +148,14 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	font-family: 'JetBrains Mono', monospace;
-	font-size: 109%;
+	font-size: 104%;
 	font-weight: 600;
-	letter-spacing: 0.09ch;
+	letter-spacing: 0.08ch;
 }
 
 .mtk3 {
 	color: transparent;
-	background-image: linear-gradient(to left bottom ,  #c299ff, #ad45f6);  
+	background-image: linear-gradient(to left bottom, #c299ff, #ad45f6);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -175,15 +174,15 @@
 } */
 
 .mtk4 {
-	font-family: 'JetBrains Mono', monospace;
-	font-size: 107%;
+	font-family: 'Cascadia Code';
+	font-size: 106%;
 	font-weight: 500;
-	letter-spacing: 0.09ch;
+	letter-spacing: 0.08ch;
 }
 .mtk1,
 .mtk14 {
-	font-family: 'JetBrains Mono', monospace;
-	font-size: 101%;
+	font-family: 'Cascadia Code';
+	font-size: 106%;
 	font-weight: 500;
 	letter-spacing: 0.08ch;
 }
