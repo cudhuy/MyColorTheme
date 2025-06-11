@@ -1,69 +1,81 @@
 {
 	"security.workspace.trust.untrustedFiles": "open",
-	"code-runner.runInTerminal": true,
 	"gitlens.advanced.messages": {
 		"suppressGitMissingWarning": true
 	},
+	"git.openRepositoryInParentFolders": "never",
+	"code-runner.runInTerminal": true,
 	"color-highlight.markerType": "underline",
+	"color-highlight.matchWords": true,
 	"prettier.singleQuote": true,
 	"prettier.jsxSingleQuote": true,
 	"prettier.trailingComma": "all",
 	"prettier.useTabs": true,
+	"workbench.list.smoothScrolling": true,
+	"workbench.tree.enableStickyScroll": true,
+	"workbench.iconTheme": "pcode-icon-theme-dark-minimalis2",
+	"workbench.activityBar.location": "top",
+	"workbench.productIconTheme": "fluenticon",
+	"workbench.colorTheme": "Beautiful Dracula Normal",
+	"workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact",
 		"markdown": "html"
 	},
+	"material-ui-snippets.showNotesOnStartup": false,
+	//font 1
+	// "editor.fontWeight": "500",
+	// "editor.fontFamily": "'monolisa',Source Code Pro, Consolas, monospace",
+	// font 2
 	"editor.suggest.preview": true,
-	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.mouseWheelZoom": true,
 	"editor.accessibilityPageSize": 15,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.letterSpacing": 0.75,
 	"editor.fontLigatures": true,
-	"editor.fontWeight": "500",
-	"editor.fontFamily": "'monolisa',Source Code Pro, Consolas, monospace",
+	"editor.fontWeight": "400",
+	"editor.fontFamily": "'Cascadia Code'",
 	"editor.wordWrap": "on",
 	"editor.wordWrapColumn": 100,
 	"editor.cursorWidth": 2,
 	"editor.cursorBlinking": "phase",
 	"editor.guides.bracketPairsHorizontal": false,
-	"html.format.wrapLineLength": 120,
-	"workbench.iconTheme": "material-icon-theme",
+	"editor.stickyScroll.enabled": true,
+	"editor.stickyScroll.scrollWithEditor": true,
+	"editor.smoothScrolling": true,
+	"editor.hover.sticky": false,
 	"editor.lineHeight": 24,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"[css]": {
-		"editor.suggest.insertMode": "replace"
-	},
-	// "javascript.inlayHints.parameterNames.enabled": "all",
-	// "javascript.inlayHints.enumMemberValues.enabled": true,
-	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"explorer.fileNesting.enabled": true,
+	"extensions.ignoreRecommendations": true,
 	"files.autoSave": "afterDelay",
+	"redhat.telemetry.enabled": true,
+	"terminal.integrated.smoothScrolling": true,
+	"vscode_custom_css.imports": ["file:///D:/VScode/ColorTheme/colorTheme.css"],
 	"workbench.colorCustomizations": {
-		// "activityBar.foreground": "#ff0883",
+		"activityBar.foreground": "#ff0883",
 		"menubar.selectionBackground": "#ff417a9c",
 		"sideBar.background": "#171827",
 		"sideBarSectionHeader.background": "#121526",
-		"sideBar.border":"#c792a255",
-		"sideBarSectionHeader.border":"#c792a23f",
+		"sideBar.border": "#c792a255",
+		"sideBarSectionHeader.border": "#c792a23f",
 		"editor.background": "#121526", //light: #15192c
-		"editorLineNumber.foreground": "#b169bcdc", //violet: #a069bcdc
+		"editorLineNumber.foreground": "#b169bcdc", //#a069bcdc
 		"editorLineNumber.activeForeground": "#fc6087dc",
 		"editorWidget.border": "#fc6087dc",
-		"editorStickyScrollHover.background":"#c792a223",
+		"editorStickyScrollHover.background": "#c792a223",
 		"tab.inactiveForeground": "#50a4e98c",
 		"tab.activeModifiedBorder": "#fc6060f4",
-		"tab.activeBorderTop": "#ed39de",
+		"tab.activeBorderTop": "#ed39de", //#ed39de #fb4934
 		"scrollbarSlider.activeBackground": "#bf607c82",
 		"scrollbarSlider.background": "#c792a26e",
 		"scrollbarSlider.hoverBackground": "#b8728782",
-		"panel.background": "#191a2e",
 		"keybindingLabel.background": "#c792a23f",
 		"terminal.foreground": "#ffcdda",
 		"terminal.background": "#151727f6",
+		"panel.background": "#191a2e",
 		"panelTitle.activeBorder": "#ed39de",
 		"panel.border": "#fc6060f4",
 		"list.activeSelectionBackground": "#c792a23f",
@@ -72,15 +84,18 @@
 		"statusBar.background": "#1c15175b",
 		"statusBarItem.hoverBackground": "#ff417a9c"
 	},
-	"workbench.colorTheme": "Beautiful Dracula Normal",
-	"vscode_custom_css.imports": ["file:///E:/VScode/ColorTheme/colorTheme.css"],
-	"[php]": {
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
 	},
-	"editor.stickyScroll.enabled": true,
-	"workbench.list.smoothScrolling": true,
-	"terminal.integrated.smoothScrolling": true,
-	"editor.smoothScrolling": true,
-	"editor.hover.sticky": false,
-	"explorer.fileNesting.enabled": true
+	"[css]": {
+		"editor.suggest.insertMode": "replace"
+	},
+	"html.format.wrapLineLength": 120,
+	"javascript.inlayHints.parameterNames.enabled": "all",
+	"javascript.inlayHints.parameterTypes.enabled": true,
+	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"javascript.inlayHints.enumMemberValues.enabled": true,
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"typescript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
 }
