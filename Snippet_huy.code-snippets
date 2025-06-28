@@ -1,0 +1,152 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Make center in flexbox": {
+		"scope": "html,css",
+		"prefix": "flexcenter",
+		"body": [
+			"display: flex;",
+			"align-items: center;",
+			"justify-content: center;"
+		],
+		"description": "Make center in flexbox"
+	},
+	"Make space-between in flexbox": {
+		"scope": "html,css",
+		"prefix": "flexsb",
+		"body": [
+			"display: flex;",
+			"align-items: space-between;",
+			"justify-content: space-between;"
+		],
+		"description": "Make space-between in flexbox"
+	},
+	"Set size width and heigh": {
+		"scope": "html,css",
+		"prefix": "size",
+		"body": ["width: $1;", "height: $2;"],
+		"description": "Set size width and heigh"
+	},
+	"Set square width and heigh are equal": {
+		"scope": "html,css",
+		"prefix": "square",
+		"body": ["width: $1;", "height: $1;"],
+		"description": "Set square width and heigh are equal"
+	},
+	"Make const": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cst",
+		"body": ["const $1 = $2"],
+		"description": "Make const in javascipt"
+	},
+	"Make console.log": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "csl",
+		"body": ["console.log($1);"],
+		"description": "Make console.log in javascipt"
+	},
+	"Export default":{
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "expdef",
+		"body": ["export default $1 = $2"],
+		"description": "Make export default in javascipt"
+	},
+	"Export const":{
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "expcst",
+		"body": ["export const $1 = $2"],
+		"description": "Make export for const in javascipt"
+	},
+	"Import package":{
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "import",
+		"body": ["import $1 from '$2'"],
+		"description": "Make import package in react"
+	},	
+	"Import css module":{
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "impsty",
+		"body": ["import styles from '$1'"],
+		"description": "Make import style for css module in react"
+	},
+	"Const arrow function":{
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cstarr",
+		"body": [
+		  "const $1 = () => {",
+		  "  $2",
+		  "};"
+		],
+		"description": "Create a const arrow function"
+	},
+	"Create a div tag with className":{
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "divcn",
+		"body": ["<div className=\"$1\">$2</div>"],
+		"description": "Create a div tag with className in react"
+	},
+	"Next.js Page Component": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "npage",
+		"body": [
+			"export default function $1() {",
+			"  return (",
+			"    <div>",
+			"      $2",
+			"    </div>",
+			"  );",
+			"}"
+		],
+		"description": "Create a Next.js page component"
+	},
+	"React-hook-form useForm setup": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "rhfsetup",
+		"body": [
+			"import { useForm } from 'react-hook-form';",
+			"",
+			"const { register, handleSubmit, formState: { errors } } = useForm();",
+			"",
+			"const onSubmit = data => {",
+			"  console.log(data);",
+			"};"
+		],
+		"description": "react-hook-form setup with handleSubmit and register"
+	},
+	"React Router Route": {
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "rroute",
+		"body": [
+			"<Route path=\"${1:path}\" element={<${2:Component} />} />"
+		],
+		"description": "Create a route with React Router"
+	},
+	"Axios PATCH Request": {
+        "scope": "javascript,javascriptreact,typescript,typescriptreact",
+        "prefix": "axiospatch",
+        "body": [
+            "axios.patch('${1:url}', ${2:data})",
+            "  .then(response => {",
+            "    console.log(response.data);",
+            "  })",
+            "  .catch(error => {",
+            "    console.error(error);",
+            "  });"
+        ],
+        "description": "Make a PATCH request with Axios"
+    },
+}
