@@ -3,7 +3,16 @@
 	"gitlens.advanced.messages": {
 		"suppressGitMissingWarning": true
 	},
+	"github.copilot.chat.commitMessageGeneration.instructions": [
+		{
+			"file": ".copilot-commit-message-instructions.md"
+		},
+		{
+			"text": "Use conventional commit message format. Less than 8 words. Use imperative mood. Use present tense. Do not use a period at the end. Start with lowercase letter."
+		}
+	],
 	"git.openRepositoryInParentFolders": "never",
+	"git.autofetch": true,
 	"code-runner.runInTerminal": true,
 	"color-highlight.markerType": "underline",
 	"color-highlight.matchWords": true,
@@ -11,10 +20,10 @@
 	"prettier.jsxSingleQuote": true,
 	"prettier.trailingComma": "all",
 	"prettier.useTabs": true,
+	"workbench.activityBar.location": "top",
 	"workbench.list.smoothScrolling": true,
 	"workbench.tree.enableStickyScroll": true,
-	"workbench.iconTheme": "pcode-icon-theme-dark-minimalis2",
-	"workbench.activityBar.location": "top",
+	"workbench.iconTheme": "pcode-icon-theme-dark-spesifik",
 	"workbench.productIconTheme": "fluenticon",
 	"workbench.colorTheme": "Beautiful Dracula Normal",
 	"workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
@@ -22,11 +31,12 @@
 		"javascript": "javascriptreact",
 		"markdown": "html"
 	},
-	"material-ui-snippets.showNotesOnStartup": false,
-	//font 1
-	// "editor.fontWeight": "500",
+	// font 1
+	// "editor.fontWeight":"500",
 	// "editor.fontFamily": "'monolisa',Source Code Pro, Consolas, monospace",
 	// font 2
+	"editor.fontFamily": "'Cascadia Code','monolisa'",
+	"editor.fontWeight": "400",
 	"editor.suggest.preview": true,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.mouseWheelZoom": true,
@@ -35,8 +45,6 @@
 	"editor.formatOnPaste": true,
 	"editor.letterSpacing": 0.75,
 	"editor.fontLigatures": true,
-	"editor.fontWeight": "400",
-	"editor.fontFamily": "'Cascadia Code'",
 	"editor.wordWrap": "on",
 	"editor.wordWrapColumn": 100,
 	"editor.cursorWidth": 2,
@@ -49,13 +57,15 @@
 	"editor.lineHeight": 24,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"explorer.fileNesting.enabled": true,
-	"extensions.ignoreRecommendations": true,
 	"files.autoSave": "afterDelay",
 	"redhat.telemetry.enabled": true,
 	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.suggest.enabled": true,
+	"terminal.integrated.cursorBlinking": true,
 	"vscode_custom_css.imports": ["file:///D:/VScode/ColorTheme/colorTheme.css"],
 	"workbench.colorCustomizations": {
 		"activityBar.foreground": "#ff0883",
+		"activityBarTop.foreground": "#f6c4f2",
 		"menubar.selectionBackground": "#ff417a9c",
 		"sideBar.background": "#171827",
 		"sideBarSectionHeader.background": "#121526",
@@ -84,6 +94,16 @@
 		"statusBar.background": "#1c15175b",
 		"statusBarItem.hoverBackground": "#ff417a9c"
 	},
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "string",
+				"settings": {
+					"foreground": "#f0c693"
+				}
+			}
+		]
+	},
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
@@ -91,11 +111,11 @@
 		"editor.suggest.insertMode": "replace"
 	},
 	"html.format.wrapLineLength": 120,
-	"javascript.inlayHints.parameterNames.enabled": "all",
-	"javascript.inlayHints.parameterTypes.enabled": true,
+	// "javascript.inlayHints.parameterNames.enabled": "literals",
+	// "javascript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-	"javascript.inlayHints.enumMemberValues.enabled": true,
 	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
 	"typescript.inlayHints.enumMemberValues.enabled": true,
 	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
 }
+
